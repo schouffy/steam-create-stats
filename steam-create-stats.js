@@ -24,8 +24,11 @@ async function addStat(statName, displayName) {
 }
 
 async function createStats(){
+
+  // TODO Put your own list of stats here
   await addStat("stat1", "Stat 1");
   await addStat("stat2", "Stat 2");
+    
 }
 
 createStats();
