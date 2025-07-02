@@ -6,7 +6,7 @@ For example: You want to track "start level X" and you have 200 levels in your g
 
 Steps:
 
-- Go to your Steam stats page (ie https://partner.steamgames.com/apps/stats/<YOURAPPID>)
+- Go to your Steam stats page (ie https://partner.steamgames.com/apps/stats/YOURAPPID)
 - open the browser console, enable multiline (Firefox has it, other browser probably as well), and paste the script from this repo
 - update the script so it fits your needs and it creates the stats you want with the proper parameters. The current script will create a basic aggregated increment stat so if that's what you need, it'll be very easy
 - execute the script; your rows should start to insert
